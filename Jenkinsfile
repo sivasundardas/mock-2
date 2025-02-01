@@ -15,6 +15,7 @@ pipeline{
                         sudo usermod -aG docker jenkins
                         '''
                     }
+                }
             }
         }
         stage('pull'){
